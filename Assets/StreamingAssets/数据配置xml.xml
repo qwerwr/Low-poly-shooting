@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+  <!-- 物品数据 -->
+  <Items>
+    <!-- 枪械 -->
+    <Item Id="weapon_pistol" Name="手枪" Type="Weapon" Value="20" CanStack="false">
+      <Description>基础手枪，伤害较低</Description>
+      <Weapon WeaponType="Pistol" AmmoType="PistolAmmo" BaseDamage="2" MaxAmmoLevel="3"/>
+    </Item>
+    <Item Id="weapon_rifle" Name="步枪" Type="Weapon" Value="40" CanStack="false">
+      <Description>标准步枪，伤害中等</Description>
+      <Weapon WeaponType="Rifle" AmmoType="RifleAmmo" BaseDamage="5" MaxAmmoLevel="3"/>
+    </Item>
+    <Item Id="weapon_sniper" Name="狙击枪" Type="Weapon" Value="100" CanStack="false">
+      <Description>高精度狙击枪，伤害极高</Description>
+      <Weapon WeaponType="Sniper" AmmoType="SniperAmmo" BaseDamage="10" MaxAmmoLevel="3"/>
+    </Item>
+    
+    <!-- 手枪弹药 -->
+    <Item Id="ammo_pistol_l1" Name="手枪弹药1级" Type="Ammo" Value="2" CanStack="true">
+      <Description>基础手枪弹药</Description>
+      <Ammo AmmoType="PistolAmmo" Level="1" Damage="1"/>
+    </Item>
+    <Item Id="ammo_pistol_l2" Name="手枪弹药2级" Type="Ammo" Value="4" CanStack="true">
+      <Description>强化手枪弹药</Description>
+      <Ammo AmmoType="PistolAmmo" Level="2" Damage="2"/>
+    </Item>
+    <Item Id="ammo_pistol_l3" Name="手枪弹药3级" Type="Ammo" Value="10" CanStack="true">
+      <Description>高级手枪弹药</Description>
+      <Ammo AmmoType="PistolAmmo" Level="3" Damage="3"/>
+    </Item>
+    
+    <!-- 步枪弹药 -->
+    <Item Id="ammo_rifle_l1" Name="步枪弹药1级" Type="Ammo" Value="3" CanStack="true">
+      <Description>基础步枪弹药</Description>
+      <Ammo AmmoType="RifleAmmo" Level="1" Damage="2"/>
+    </Item>
+    <Item Id="ammo_rifle_l2" Name="步枪弹药2级" Type="Ammo" Value="6" CanStack="true">
+      <Description>强化步枪弹药</Description>
+      <Ammo AmmoType="RifleAmmo" Level="2" Damage="4"/>
+    </Item>
+    <Item Id="ammo_rifle_l3" Name="步枪弹药3级" Type="Ammo" Value="7" CanStack="true">
+      <Description>高级步枪弹药</Description>
+      <Ammo AmmoType="RifleAmmo" Level="3" Damage="6"/>
+    </Item>
+    
+    <!-- 狙击枪弹药 -->
+    <Item Id="ammo_sniper_l1" Name="狙击枪弹药1级" Type="Ammo" Value="10" CanStack="true">
+      <Description>基础狙击枪弹药</Description>
+      <Ammo AmmoType="SniperAmmo" Level="1" Damage="10"/>
+    </Item>
+    <Item Id="ammo_sniper_l2" Name="狙击枪弹药2级" Type="Ammo" Value="15" CanStack="true">
+      <Description>强化狙击枪弹药</Description>
+      <Ammo AmmoType="SniperAmmo" Level="2" Damage="15"/>
+    </Item>
+    <Item Id="ammo_sniper_l3" Name="狙击枪弹药3级" Type="Ammo" Value="20" CanStack="true">
+      <Description>高级狙击枪弹药</Description>
+      <Ammo AmmoType="SniperAmmo" Level="3" Damage="20"/>
+    </Item>
+    
+    <!-- 头盔 -->
+    <Item Id="helmet_l1" Name="1级头盔" Type="Armor" Value="10" CanStack="false">
+      <Description>基础防护头盔</Description>
+      <Armor Slot="Head" Level="1" DamageReduction="6"/>
+    </Item>
+    <Item Id="helmet_l2" Name="2级头盔" Type="Armor" Value="20" CanStack="false">
+      <Description>强化防护头盔</Description>
+      <Armor Slot="Head" Level="2" DamageReduction="15"/>
+    </Item>
+    
+    <!-- 甲胄 -->
+    <Item Id="armor_l1" Name="1级甲胄" Type="Armor" Value="15" CanStack="false">
+      <Description>基础防护甲胄</Description>
+      <Armor Slot="Body" Level="1" DamageReduction="10"/>
+    </Item>
+    <Item Id="armor_l2" Name="2级甲胄" Type="Armor" Value="30" CanStack="false">
+      <Description>强化防护甲胄</Description>
+      <Armor Slot="Body" Level="2" DamageReduction="20"/>
+    </Item>
+    
+    <!-- 杂物 -->
+    <Item Id="misc_button" Name="纽扣" Type="Misc" Value="2" CanStack="true">
+      <Description>普通纽扣</Description>
+    </Item>
+    <Item Id="misc_shoes" Name="跑鞋" Type="Misc" Value="20" CanStack="true">
+      <Description>轻便跑鞋</Description>
+    </Item>
+    <Item Id="misc_axe" Name="砍斧" Type="Misc" Value="30" CanStack="true">
+      <Description>锋利砍斧</Description>
+    </Item>
+    <Item Id="misc_arrow" Name="大箭" Type="Misc" Value="30" CanStack="true">
+      <Description>大型箭矢</Description>
+    </Item>
+    <Item Id="misc_book" Name="书" Type="Misc" Value="10" CanStack="true">
+      <Description>旧书籍</Description>
+    </Item>
+    <Item Id="misc_robe" Name="长袍" Type="Misc" Value="80" CanStack="true">
+      <Description>华丽长袍</Description>
+    </Item>
+    <Item Id="misc_belt" Name="腰带" Type="Misc" Value="20" CanStack="true">
+      <Description>实用腰带</Description>
+    </Item>
+    <Item Id="misc_gold" Name="金币" Type="Misc" Value="1" CanStack="true">
+      <Description>通用货币</Description>
+    </Item>
+  </Items>
+  
+  <!-- 角色数据 -->
+  <Characters>
+    <Character Id="char_yellow" Name="黄毛" IsPlayer="true">
+      <Description>勇敢的年轻战士</Description>
+      <Avatar>Characters/Yellow</Avatar>
+    </Character>
+    <Character Id="char_blue" Name="蓝发" IsPlayer="true">
+      <Description>冷静的战术专家</Description>
+      <Avatar>Characters/Blue</Avatar>
+    </Character>
+    <Character Id="char_hat" Name="帽子哥" IsPlayer="true">
+      <Description>经验丰富的老兵</Description>
+      <Avatar>Characters/Hat</Avatar>
+    </Character>
+    <Character Id="char_fitness" Name="健身达人" IsPlayer="true">
+      <Description>强壮的近战专家</Description>
+      <Avatar>Characters/Fitness</Avatar>
+    </Character>
+    <Character Id="enemy_mask1" Name="遮面男1号" IsPlayer="false">
+      <Description>神秘敌人</Description>
+      <Avatar>Characters/Mask1</Avatar>
+    </Character>
+    <Character Id="enemy_mask2" Name="遮面男2号" IsPlayer="false">
+      <Description>危险敌人</Description>
+      <Avatar>Characters/Mask2</Avatar>
+    </Character>
+  </Characters>
+  
+  <!-- 地图数据 -->
+  <Maps>
+    <Map Id="1" Name="地图1">
+      <Description>废弃工厂区域</Description>
+    </Map>
+    <Map Id="2" Name="地图2">
+      <Description>城市废墟</Description>
+    </Map>
+    <Map Id="3" Name="地图3">
+      <Description>森林深处</Description>
+    </Map>
+  </Maps>
+  
+  <!-- 商店数据 -->
+  <Shop>
+    <ShopItem ItemId="weapon_pistol" Price="25"/>
+    <ShopItem ItemId="weapon_rifle" Price="50"/>
+    <ShopItem ItemId="weapon_sniper" Price="120"/>
+    <ShopItem ItemId="ammo_pistol_l1" Price="3"/>
+    <ShopItem ItemId="ammo_pistol_l2" Price="5"/>
+    <ShopItem ItemId="ammo_pistol_l3" Price="12"/>
+    <ShopItem ItemId="ammo_rifle_l1" Price="4"/>
+    <ShopItem ItemId="ammo_rifle_l2" Price="7"/>
+    <ShopItem ItemId="ammo_rifle_l3" Price="8"/>
+    <ShopItem ItemId="ammo_sniper_l1" Price="12"/>
+    <ShopItem ItemId="ammo_sniper_l2" Price="18"/>
+    <ShopItem ItemId="ammo_sniper_l3" Price="25"/>
+    <ShopItem ItemId="helmet_l1" Price="12"/>
+    <ShopItem ItemId="helmet_l2" Price="25"/>
+    <ShopItem ItemId="armor_l1" Price="18"/>
+    <ShopItem ItemId="armor_l2" Price="35"/>
+  </Shop>
+</GameData>

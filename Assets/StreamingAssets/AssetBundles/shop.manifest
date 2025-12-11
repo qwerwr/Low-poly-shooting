@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3751043537
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 22e79001827880fb225072e78766f74a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c06eef2cee432fc9f81f49e77e2f461d
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 22e79001827880fb225072e78766f74a
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 1019a80331266df45aeb16843068163c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Game.ShopItemData
+Assets:
+- Assets/Resources/GameData/Shop/main_shop.asset
+Dependencies: []

@@ -1,0 +1,1 @@
+{"root":[{"assemblyName":"Assembly-CSharp","nameSpace":"QFramework","className":"ComparerAutoRegister","methodName":"AutoRegister","loadTypes":1,"isUnityClass":false},{"assemblyName":"Unity.VisualScripting.Core","nameSpace":"Unity.VisualScripting","className":"RuntimeVSUsageUtility","methodName":"RuntimeInitializeOnLoadBeforeSceneLoad","loadTypes":1,"isUnityClass":true}]}

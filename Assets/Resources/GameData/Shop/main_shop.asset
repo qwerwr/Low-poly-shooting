@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019a80331266df45aeb16843068163c, type: 3}
+  m_Name: main_shop
+  m_EditorClassIdentifier: 
+  ShopId: main_shop
+  ShopName: "\u4E3B\u5546\u5E97"
+  InitialGold: 1000
+  Items:
+  - ItemId: weapon_pistol
+    Price: 25
+  - ItemId: weapon_rifle
+    Price: 50
+  - ItemId: weapon_sniper
+    Price: 120
+  - ItemId: ammo_pistol_l1
+    Price: 3
+  - ItemId: ammo_pistol_l2
+    Price: 5
+  - ItemId: ammo_pistol_l3
+    Price: 12
+  - ItemId: ammo_rifle_l1
+    Price: 4
+  - ItemId: ammo_rifle_l2
+    Price: 7
+  - ItemId: ammo_rifle_l3
+    Price: 8
+  - ItemId: ammo_sniper_l1
+    Price: 12
+  - ItemId: ammo_sniper_l2
+    Price: 18
+  - ItemId: ammo_sniper_l3
+    Price: 25
+  - ItemId: helmet_l1
+    Price: 12
+  - ItemId: helmet_l2
+    Price: 25
+  - ItemId: armor_l1
+    Price: 18
+  - ItemId: armor_l2
+    Price: 35

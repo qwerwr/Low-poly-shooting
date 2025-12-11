@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 500073643
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dad8a231f75ac4c7cbd611cbb941b21b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1fad73758107388d56f53e7e892441f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dad8a231f75ac4c7cbd611cbb941b21b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3074d04e71586674492ec402d33f8d5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aa5e46cdfc28b2a4e9b2ae83a9e9a5e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 05b64ca3fd4b5434aa5a2e79525125e1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62be7b2999cff6548803d273dbe1d112, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/GameData/Items/helmet_l1.asset
+- Assets/Resources/GameData/Items/ammo_sniper_l2.asset
+- Assets/Resources/GameData/Items/helmet_l2.asset
+- Assets/Resources/GameData/Items/misc_gold.asset
+- Assets/Resources/GameData/Items/misc_belt.asset
+- Assets/Resources/GameData/Items/misc_robe.asset
+- Assets/Resources/GameData/Items/misc_shoes.asset
+- Assets/Resources/GameData/Items/ammo_pistol_l3.asset
+- Assets/Resources/GameData/Items/armor_l1.asset
+- Assets/Resources/GameData/Items/ammo_sniper_l1.asset
+- Assets/Resources/GameData/Items/misc_button.asset
+- Assets/Resources/GameData/Items/armor_l2.asset
+- Assets/Resources/GameData/Items/ammo_pistol_l1.asset
+- Assets/Resources/GameData/Items/ammo_rifle_l3.asset
+- Assets/Resources/GameData/Items/ammo_sniper_l3.asset
+- Assets/Resources/GameData/Items/ammo_pistol_l2.asset
+- Assets/Resources/GameData/Items/weapon_sniper.asset
+- Assets/Resources/GameData/Items/misc_arrow.asset
+- Assets/Resources/GameData/Items/misc_axe.asset
+- Assets/Resources/GameData/Items/misc_book.asset
+- Assets/Resources/GameData/Items/weapon_pistol.asset
+- Assets/Resources/GameData/Items/ammo_rifle_l2.asset
+- Assets/Resources/GameData/Items/ammo_rifle_l1.asset
+- Assets/Resources/GameData/Items/weapon_rifle.asset
+Dependencies: []

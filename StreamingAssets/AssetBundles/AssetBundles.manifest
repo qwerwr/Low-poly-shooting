@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2737592746
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: items
+      Dependencies: {}
+    Info_1:
+      Name: characters
+      Dependencies: {}
+    Info_2:
+      Name: maps
+      Dependencies: {}
+    Info_3:
+      Name: shop
+      Dependencies: {}

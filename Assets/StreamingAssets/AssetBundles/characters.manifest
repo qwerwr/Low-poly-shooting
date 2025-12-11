@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3735603239
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5674d31ea400f81a31a03f06fb505047
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 54901d1dacdd938c0638feb6ded3e02d
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5674d31ea400f81a31a03f06fb505047
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c23970ed5e1e1d4fbf90126899e0d1f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/GameData/Characters/char_hat.asset
+- Assets/Resources/GameData/Characters/char_blue.asset
+- Assets/Resources/GameData/Characters/enemy_mask2.asset
+- Assets/Resources/GameData/Characters/char_yellow.asset
+- Assets/Resources/GameData/Characters/enemy_mask1.asset
+- Assets/Resources/GameData/Characters/char_fitness.asset
+Dependencies: []
