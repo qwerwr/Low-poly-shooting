@@ -39,7 +39,7 @@ namespace Game.UI
         }
         
         /// <summary>
-        /// 获取游戏按钮点击事件
+        /// 获取游戏按钮点击事件  
         /// </summary>
         private void OnGetGameButtonClick()
         {
